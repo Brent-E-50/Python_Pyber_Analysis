@@ -28,45 +28,27 @@ Next I changed the fomatting of the columns so the numbers are easier to underst
 ![5E68C56F-CC1C-4439-91EE-B89905830898](https://user-images.githubusercontent.com/122326425/216697971-5700e298-cdd7-46c4-b91e-32af8f765b02.jpeg)
 
 For the second portion of the project I went in and created a new DataFrame showing the sum of the fares for each date where the indices are the city type and date. To accomplish this I used a .groupby and a .sum function and specified .fare to_fame. The results:
+![1C9EF290-26D3-424D-8A53-E4676876500A](https://user-images.githubusercontent.com/122326425/216698488-619e83f2-5b5a-4986-ae0a-0cd52068a41e.jpeg)
 
 
 
-We are now going reset the index so we can use the pivot() function which will allow us to create a pivot table
+I then went in and reset the index so I would be allowed to use the pivot() function which allowed me to create a pivot table
+![4538C86F-90A7-488D-B118-CBA21325C7F5](https://user-images.githubusercontent.com/122326425/216698683-8d534baa-b92b-41c4-b818-15b570e4510d.jpeg)
 
 
-Next I needed to create a pivot table with the 'date' as the index, the columns ='type', and values='fare' to get the total fares for each type of city by the date. Since I reset the index above I was now allowed to use the pivot() function. After creating the pivot table we then need to create a new DataFrame from the pivot table DataFrame using based on dates, '2019-01-01':'2019-04-28'. After that I convert the datatype of the index to datetime Results: 15E3728D-B8AE-43A5-A3D5-D95C5945D5E4 A1D90A4D-D1C5-4DF2-9A59-736115B6655C 8AEC393F-4FB3-4FEC-9A2F-19FF5DE2EA86
+Next I needed to create a pivot table with the 'date' as the index, the columns ='type', and values='fare' to get the total fares for each type of city by the date. Since I reset the index above I was now allowed to use the pivot() function. After creating the pivot table we then need to create a new DataFrame from the pivot table DataFrame using based on dates, '2019-01-01':'2019-04-28'. After that I convert the datatype of the index to datetime 
 
 Index datatype conversion confirmation
 
-BF43610A-1191-4389-AC42-7BA8268E081F
+![58D04D66-6FDB-4A0C-A90E-77151407A804](https://user-images.githubusercontent.com/122326425/216699098-b2ed7524-211d-42f6-9f2c-0f7f6e39432e.jpeg)
+
 
 After I made the datetimme conversion I could now use the resample function properly. I needed to create a new DataFrame using the "resample()" function by week 'W' and get the sum of the fares for each week. Results: E1EA401E-43CB-4848-8EE8-13C0A79F7617
+![552A0106-E7BF-4AC6-BDA7-BA28F4D53390](https://user-images.githubusercontent.com/122326425/216699036-6d178ddb-7ac0-48b3-b95d-18782b90ee46.jpeg)
 
 Finally I transitioned into the visualization element. The goal in this scenario is to create a chart that displays the total fares by city type. First and foremost I went in and imported my dependencies which in this case is "from matplotlib import style". Secondly I stated the actual style type ("fivethirtyeight"). After the style was set I made sure to go in and format graph properties which entails specifying plt.title, plt.ylabel, plt.xlabel, and plt.grid. Lastly I specified details on the chart legend. The final results is as follows.
+![C11EDF91-60DE-4CE9-9DE9-49CC81E18FFD](https://user-images.githubusercontent.com/122326425/216698995-45cb0763-2491-41eb-a5ca-d40c7f58d580.jpeg)
 
-10ABDD80-AD8C-4B44-A8B1-EBEAC4AC7471
-
-About
-No description, website, or topics provided.
-Topics
-Resources
- Readme
-Stars
- 0 stars
-Watchers
- 1 watching
-Forks
- 0 forks
-Releases
-No releases published
-Create a new release
-Packages
-No packages published
-Publish your first package
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
 Privacy
 Security
 Status
