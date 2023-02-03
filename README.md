@@ -57,4 +57,4 @@ Finally I transitioned into the visualization element. The goal in this scenario
 - Pyber is used mainly in Urban cities
 - There are more drivers in Urban cities than there are in Suburban or Rural cities. 
 - Fares are most expensive in Rural cities
-- Drivers in Rural areas get significantly less business than drivers in Urban and Suburan areas. Drivers likely do not drive full time due to the lack of users
+- Drivers in Rural areas get significantly less business than drivers in Urban and Suburan areas. Drivers in Rural areas likely do not drive full time due to the lack of users
