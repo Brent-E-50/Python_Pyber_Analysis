@@ -52,3 +52,9 @@ After I made the datetimme conversion I could now use the resample function prop
 
 Finally I transitioned into the visualization element. The goal in this scenario is to create a chart that displays the total fares by city type. First and foremost I went in and imported my dependencies which in this case is "from matplotlib import style". Secondly I stated the actual style type ("fivethirtyeight"). After the style was set I made sure to go in and format graph properties which entails specifying plt.title, plt.ylabel, plt.xlabel, and plt.grid. Lastly I specified details on the chart legend. The final results is as follows.
 ![C11EDF91-60DE-4CE9-9DE9-49CC81E18FFD](https://user-images.githubusercontent.com/122326425/216698995-45cb0763-2491-41eb-a5ca-d40c7f58d580.jpeg)
+
+### Key Findings
+- Pyber is used mainly in Urban cities
+- There are more drivers in Urban cities than there are in Suburban or Rural cities. 
+- Fares are most expensive in Rural cities
+- Drivers in Rural areas get significantly less business than drivers in Urban and Suburan areas. Drivers likely do not drive full time due to the lack of users
