@@ -24,8 +24,8 @@ Next I decided to make the dataframe more presentable by deleting the index name
 ![B903BB4F-B0C9-4901-BC4E-5ADF91E1FE7D](https://user-images.githubusercontent.com/122326425/216695269-684c158d-452a-4b4f-b3fa-da5aed953834.jpeg)
 
 Next I changed the fomatting of the columns so the numbers are easier to understand. We want to ensure there are dollar signs, commas, etc so we know what the number in the column is representing. I did this by specifying the dataframe, specifying the column and specifying the format integrity of each column. The results: 
+![F64E5F7E-7882-4EC5-A02A-492B4E8819F9](https://user-images.githubusercontent.com/122326425/216699734-c76c1f9f-28db-4d32-a171-0810566a4f78.jpeg)
 
-![5E68C56F-CC1C-4439-91EE-B89905830898](https://user-images.githubusercontent.com/122326425/216697971-5700e298-cdd7-46c4-b91e-32af8f765b02.jpeg)
 
 For the second portion of the project I went in and created a new DataFrame showing the sum of the fares for each date where the indices are the city type and date. To accomplish this I used a .groupby and a .sum function and specified .fare to_fame. The results:
 ![1C9EF290-26D3-424D-8A53-E4676876500A](https://user-images.githubusercontent.com/122326425/216698488-619e83f2-5b5a-4986-ae0a-0cd52068a41e.jpeg)
