@@ -37,8 +37,12 @@ I then went in and reset the index so I would be allowed to use the pivot() func
 
 
 Next I needed to create a pivot table with the 'date' as the index, the columns ='type', and values='fare' to get the total fares for each type of city by the date. Since I reset the index above I was now allowed to use the pivot() function. After creating the pivot table we then need to create a new DataFrame from the pivot table DataFrame using based on dates, '2019-01-01':'2019-04-28'. After that I convert the datatype of the index to datetime 
+![73CE9363-DE17-4134-BB3D-6CE534E53748](https://user-images.githubusercontent.com/122326425/216700819-8058238d-1b1b-40ae-b9ac-a2e212f08b9d.jpeg)
 
-Index datatype conversion confirmation
+![9EBB8384-70BD-4BEC-80A1-06C129F044C7](https://user-images.githubusercontent.com/122326425/216700861-02caea3a-f0b6-4b73-93a2-a390eabedbb1.jpeg)
+
+Index datatype conversion confirmation![Uploading 9EBB8384-70BD-4BEC-80A1-06C129F044C7.jpeg…]()
+
 
 ![58D04D66-6FDB-4A0C-A90E-77151407A804](https://user-images.githubusercontent.com/122326425/216699098-b2ed7524-211d-42f6-9f2c-0f7f6e39432e.jpeg)
 
@@ -48,14 +52,3 @@ After I made the datetimme conversion I could now use the resample function prop
 
 Finally I transitioned into the visualization element. The goal in this scenario is to create a chart that displays the total fares by city type. First and foremost I went in and imported my dependencies which in this case is "from matplotlib import style". Secondly I stated the actual style type ("fivethirtyeight"). After the style was set I made sure to go in and format graph properties which entails specifying plt.title, plt.ylabel, plt.xlabel, and plt.grid. Lastly I specified details on the chart legend. The final results is as follows.
 ![C11EDF91-60DE-4CE9-9DE9-49CC81E18FFD](https://user-images.githubusercontent.com/122326425/216698995-45cb0763-2491-41eb-a5ca-d40c7f58d580.jpeg)
-
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
